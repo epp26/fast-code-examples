@@ -15,20 +15,20 @@ Show targets:
  - make show_blockingDynamicMMM - displays the code BlockingDynamicMMM.cpp
 
 options for targets run_simple*MMM*:
- M=300    - Matrix A is MxN
- N=300    - Matrix B is NxP
- P=300    - Resulting Matrix is MxP
- OUTPUT=0 - toggle on outputting matrix operations
- CACHE=1  - Display Cache info from papi
- CACHE=0  - Display instructions and fp operations from papi
+ - M=300    - Matrix A is MxN
+ - N=300    - Matrix B is NxP
+ - P=300    - Resulting Matrix is MxP
+ - OUTPUT=0 - toggle on outputting matrix operations
+ - CACHE=1  - Display Cache info from papi
+ - CACHE=0  - Display instructions and fp operations from papi
 
 options for targets run_blocking*MMM*:
- M=300    - Matrix A is MxN
- N=300    - Matrix B is NxP
- P=300    - Resulting Matrix is MxP
- NB=100   - Block/tile size is NBxNB
- OUTPUT=0 - toggle on outputting matrix operations
- CACHE=1  - Display Cache info from papi
- CACHE=0  - Display instructions and fp operations from papi
+ - M=300    - Matrix A is MxN
+ - N=300    - Matrix B is NxP
+ - P=300    - Resulting Matrix is MxP
+ - NB=100   - Block/tile size is NBxNB
+ - OUTPUT=0 - toggle on outputting matrix operations
+ - CACHE=1  - Display Cache info from papi
+ - CACHE=0  - Display instructions and fp operations from papi
 
 
