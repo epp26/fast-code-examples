@@ -5,15 +5,16 @@ All examples can be executed from the Makefile
 
 make help - list outs all available options
 
-make show_cache_info - outputs cache info from getconf
-
 make isRightServer - tests that on node sandbox
 
-make show_simpleMMM - displays the code SimpleMMM.cpp
+Show targets:
+ - make show_cache_info         - outputs cache info from getconf
+ - make show_simpleMMM          - displays the code SimpleMMM.cpp
+ - make show_simpleDynamicMMM   - displays the code SimpleDynamicMMM.cpp
+ - make show_blockingMMM        - displays the code BlockingMMM.cpp
+ - make show_blockingDynamicMMM - displays the code BlockingDynamicMMM.cpp
 
-make show_blockingMMM - displays the code BlockingMMM.cpp
-
-options for targets run_simpleMMM*:
+options for targets run_simple*MMM*:
  M=300    - Matrix A is MxN
  N=300    - Matrix B is NxP
  P=300    - Resulting Matrix is MxP
@@ -21,7 +22,7 @@ options for targets run_simpleMMM*:
  CACHE=1  - Display Cache info from papi
  CACHE=0  - Display instructions and fp operations from papi
 
-options for targets run_blockingMMM*:
+options for targets run_blocking*MMM*:
  M=300    - Matrix A is MxN
  N=300    - Matrix B is NxP
  P=300    - Resulting Matrix is MxP
